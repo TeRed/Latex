@@ -1,0 +1,33 @@
+\documentclass{standalone}
+\usepackage[T1]{fontenc}
+\usepackage[latin2]{inputenc}
+\usepackage[english]{babel}
+\usepackage{tikz}
+\usetikzlibrary{calc,through,backgrounds,positioning,fit}
+\usetikzlibrary{shapes,arrows,shadows}
+\usepackage{amssymb}
+
+
+\begin{document}
+
+\newcommand{\todo}[1]{\colorbox{red}{TODO:: #1}}
+\todo{fixing}
+\newcommand{\fixme}[1]{\colorbox{yellow}{FIXME:: #1}}
+\fixme{costam}
+\newcommand{\myint}[3]{$$\int_{#1}^{#2} (#3) dx$$}
+\myint{0}{1}{x^2 + 9}
+
+\def \R {$\mathbb{R}$}
+\def \N {$\mathbb{N}$}
+\def \agh {Akademia Gorniczo-Hutnicza}
+\def \tg {$\rm{tg}$}
+
+\R
+
+\N
+
+\agh
+
+\tg
+ 
+\end{document}
